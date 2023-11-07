@@ -1,43 +1,26 @@
 body {
     font-size: 20px;
     background-color: black;
-    color: blueviolet;
-}
-
-header {
-    height: 20px; 
     color: white;
-   
-} 
-
-ul {
-    list-style: none;
-    
 }
-
-.header {
+header {
+    height: 100px;
+}       
+ul{
     display: flex;
-    align-items: center;    
+    justify-content: space-between;
+    list-style: none;
+    padding: 0%;
+    border: 2px solid white;
 }
-
-.instagram-icon {
-    width: 20px; 
-    height: 20px; 
-    margin: 0 auto 10px;
-    border-right: 5px solid black;
-    
-}
-.spotify-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 auto 10px;
-    margin-left: 50px;
-    border-right: 5px solid black;
-}
-.youtube-icon {
-    width: 20px;
-    height: 20px;
-    margin: 0 auto 10px;
-    margin-left: 65px;
-    border-right: 5px solid black;
-}
+li {
+    flex: 1;
+    font-style: Arial ;
+    text-align: left;
+    font-size: 15px;
+    border-right: 1px solid white;
+    padding: 3%;
+}       
+li:last-child {
+    border-right: none;
+    }
