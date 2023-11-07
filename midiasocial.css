@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{font-family: 'Kdam Thmor Pro', sans-serif;}
 body {
     font-size: 20px;
     background-color: black;
