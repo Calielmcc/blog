@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,7 @@
                 <li><a href="midiasocial.html">Mídia Social</a></li>
             </ul>
         </nav>
+        
     </header>
 
     <main>
@@ -29,12 +30,17 @@
         </section>
 
         <button id="biographyButton">Biografia</button>
+        
+       
     </main>
 
     <footer>
         <p id="currentDate">&copy; 2023 Calielmc.com</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script>document.getElementById('biographyButton').addEventListener('click', function() {
+        window.location.href = 'biografia.html';
+    });
+    </script>
 </body>
 </html>
