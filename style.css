@@ -1,24 +1,43 @@
 body {
     font-size: 20px;
+    background-color: black;
+    color: blueviolet;
 }
+
 header {
-    height: 100px;
-}       
-ul{
-    display: flex;
-    justify-content: space-between;
+    height: 20px; 
+    color: white;
+   
+} 
+
+ul {
     list-style: none;
-    padding: 0%;
-    border: 2px solid black;
+    
 }
-li {
-    flex: 1;
-    font-style: Arial ;
-    text-align: left;
-    font-size: 15px;
-    border-right: 1px solid black;
-    padding: 3%;
-}       
-li:last-child {
-    border-right: none;
-    }
+
+.header {
+    display: flex;
+    align-items: center;    
+}
+
+.instagram-icon {
+    width: 20px; 
+    height: 20px; 
+    margin: 0 auto 10px;
+    border-right: 5px solid black;
+    
+}
+.spotify-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 10px;
+    margin-left: 50px;
+    border-right: 5px solid black;
+}
+.youtube-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto 10px;
+    margin-left: 65px;
+    border-right: 5px solid black;
+}
